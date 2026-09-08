@@ -325,6 +325,36 @@ footer a:hover {
     font-size: 1rem;
 }
 
+.projects-page {
+    padding: 4rem 2rem;
+}
+
+.projects-page h1{
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.projects-page p{
+    text-align: center;
+    max-width: 700px;
+    font-size: 1.2rem;
+    margin: 0 auto 2rem auto;
+}
+
+.projects-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    max-width: 1000px;
+    margin: 0 auto 2rem auto;
+}
+
+.projects-grid .project-card {
+    width: 100%;
+    margin: 0;
+}
+
 
 @media (max-width: 768px) {
     nav {
@@ -353,5 +383,14 @@ footer a:hover {
     .education-card {
         width: 100%;
         padding: 1rem;
+    }
+    .projects-page {
+        padding: 3rem 1rem;
+    }
+    .projects-page h1 {
+        font-size: 2.2rem;
+    }
+    .projects-grid {
+        grid-template-columns: 1fr; 
     }
 }
