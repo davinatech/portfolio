@@ -4,6 +4,10 @@ My personal developer portfolio showcasing my projects, skills, and progress as 
 
 🌐 **Live Website:** https://davinaknie.com
 
+## Preview
+
+![Davina Knie Developer Portfolio](assets/portfolio-preview.png)
+
 ## About the Project
 
 I built this portfolio to document my development journey and create a central place to showcase the projects I build as my skills grow.
